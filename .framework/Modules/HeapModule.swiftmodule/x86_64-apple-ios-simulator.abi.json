@@ -1,0 +1,771 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HeapModule",
+    "printedName": "HeapModule",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Heap",
+        "printedName": "Heap",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "elements",
+            "printedName": "elements",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HeapModule0A0V8elementsSayxGvp",
+            "mangledName": "$s10HeapModule0A0V8elementsSayxGvp",
+            "moduleName": "HeapModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HeapModule0A0V8elementsSayxGvg",
+                "mangledName": "$s10HeapModule0A0V8elementsSayxGvg",
+                "moduleName": "HeapModule",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HeapModule0A0V8elementsSayxGvs",
+                "mangledName": "$s10HeapModule0A0V8elementsSayxGvs",
+                "moduleName": "HeapModule",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HeapModule0A0V8elementsSayxGvM",
+                "mangledName": "$s10HeapModule0A0V8elementsSayxGvM",
+                "moduleName": "HeapModule",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "priorityFunction",
+            "printedName": "priorityFunction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0, τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(τ_0_0, τ_0_0)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HeapModule0A0V16priorityFunctionySbx_xtcvp",
+            "mangledName": "$s10HeapModule0A0V16priorityFunctionySbx_xtcvp",
+            "moduleName": "HeapModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0, τ_0_0) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(τ_0_0, τ_0_0)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HeapModule0A0V16priorityFunctionySbx_xtcvg",
+                "mangledName": "$s10HeapModule0A0V16priorityFunctionySbx_xtcvg",
+                "moduleName": "HeapModule",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEmpty",
+            "printedName": "isEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HeapModule0A0V7isEmptySbvp",
+            "mangledName": "$s10HeapModule0A0V7isEmptySbvp",
+            "moduleName": "HeapModule",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HeapModule0A0V7isEmptySbvg",
+                "mangledName": "$s10HeapModule0A0V7isEmptySbvg",
+                "moduleName": "HeapModule",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HeapModule0A0V5countSivp",
+            "mangledName": "$s10HeapModule0A0V5countSivp",
+            "moduleName": "HeapModule",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HeapModule0A0V5countSivg",
+                "mangledName": "$s10HeapModule0A0V5countSivg",
+                "moduleName": "HeapModule",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Element>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "peek",
+            "printedName": "peek()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V4peekxSgyF",
+            "mangledName": "$s10HeapModule0A0V4peekxSgyF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRoot",
+            "printedName": "isRoot(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V6isRootySbSiF",
+            "mangledName": "$s10HeapModule0A0V6isRootySbSiF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "leftChildIndex",
+            "printedName": "leftChildIndex(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V14leftChildIndex2ofS2i_tF",
+            "mangledName": "$s10HeapModule0A0V14leftChildIndex2ofS2i_tF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rightChildIndex",
+            "printedName": "rightChildIndex(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V15rightChildIndex2ofS2i_tF",
+            "mangledName": "$s10HeapModule0A0V15rightChildIndex2ofS2i_tF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parentIndex",
+            "printedName": "parentIndex(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V11parentIndex2ofS2i_tF",
+            "mangledName": "$s10HeapModule0A0V11parentIndex2ofS2i_tF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isHigherPriority",
+            "printedName": "isHigherPriority(at:than:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V16isHigherPriority2at4thanSbSi_SitF",
+            "mangledName": "$s10HeapModule0A0V16isHigherPriority2at4thanSbSi_SitF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "highestPriorityIndex",
+            "printedName": "highestPriorityIndex(of:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V20highestPriorityIndex2of3andS2i_SitF",
+            "mangledName": "$s10HeapModule0A0V20highestPriorityIndex2of3andS2i_SitF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "highestPriorityIndex",
+            "printedName": "highestPriorityIndex(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V20highestPriorityIndex3forS2i_tF",
+            "mangledName": "$s10HeapModule0A0V20highestPriorityIndex3forS2i_tF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "swapElement",
+            "printedName": "swapElement(at:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V11swapElement2at4withySi_SitF",
+            "mangledName": "$s10HeapModule0A0V11swapElement2at4withySi_SitF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(elements:priorityFunction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Heap",
+                "printedName": "HeapModule.Heap<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10HeapModule0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0, τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(τ_0_0, τ_0_0)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HeapModule0A0V8elements16priorityFunctionACyxGSayxG_Sbx_xtctcfc",
+            "mangledName": "$s10HeapModule0A0V8elements16priorityFunctionACyxGSayxG_Sbx_xtctcfc",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "enqueue",
+            "printedName": "enqueue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V7enqueueyyxF",
+            "mangledName": "$s10HeapModule0A0V7enqueueyyxF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "siftUp",
+            "printedName": "siftUp(elementAtIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V6siftUp14elementAtIndexySi_tF",
+            "mangledName": "$s10HeapModule0A0V6siftUp14elementAtIndexySi_tF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeue",
+            "printedName": "dequeue()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V7dequeuexSgyF",
+            "mangledName": "$s10HeapModule0A0V7dequeuexSgyF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "siftDown",
+            "printedName": "siftDown(elementAtIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HeapModule0A0V8siftDown14elementAtIndexySi_tF",
+            "mangledName": "$s10HeapModule0A0V8siftDown14elementAtIndexySi_tF",
+            "moduleName": "HeapModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Element>",
+            "declAttributes": [
+              "Mutating"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10HeapModule0A0V",
+        "mangledName": "$s10HeapModule0A0V",
+        "moduleName": "HeapModule",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
