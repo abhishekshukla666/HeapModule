@@ -59,13 +59,13 @@ public struct Heap<Element> {
     }
     
 }
-extension Heap {
-    public mutating func enqueue(_ element: Element) {
+public extension Heap {
+    mutating func enqueue(_ element: Element) {
         elements.append(element)
         siftUp(elementAtIndex: count - 1)
     }
     
-    public mutating func siftUp(elementAtIndex index: Int) {
+    mutating func siftUp(elementAtIndex index: Int) {
         let parent = parentIndex(of: index) // 1
         guard !isRoot(index), // 2
               isHigherPriority(at: index, than: parent) // 3
@@ -75,8 +75,8 @@ extension Heap {
     }
 }
 
-extension Heap {
-    public mutating func dequeue() -> Element? {
+public extension Heap {
+    mutating func dequeue() -> Element? {
       guard !isEmpty // 1
         else { return nil }
       swapElement(at: 0, with: count - 1) // 2
@@ -87,7 +87,7 @@ extension Heap {
       return element // 6
     }
     
-    public mutating func siftDown(elementAtIndex index: Int) {
+    mutating func siftDown(elementAtIndex index: Int) {
       let childIndex = highestPriorityIndex(for: index) // 1
       if index == childIndex { // 2
         return
